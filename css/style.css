@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+html,body{
+  width:100%;
+  position: relative;
+}
+
+#body_login{
+  background: url("../img/background/festa2.jpg") no-repeat;
+  background-position: center top;
+}
+
+section{
+  margin: 100px;
+}
+
+.m-100{
+  margin: 80px;
+}
+
+.mt-100{
+  margin-top: 200px;
+}
+
+
+.mb-100{
+  margin-bottom: 100px;
+}
+
+
+.back {
+  background: rgba(192, 57, 43, 0)!important;
+}
+
+.card{
+  box-shadow: 0 0 0 0 rgba(0,0,0,.16), 0 0 0 0 rgba(0,0,0,.12)!important;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.btn-outline-info{
+  border: 2px solid #bf0b0b!important;
+  color:  #bf0b0b!important;
+}
+
+.btn-outline-info:hover{
+  border: 2px solid #bf0b0b!important;
+  color:  #fff!important;
+  background: #bf0b0b!important;
+}
+
+.nome_login input[type=text],.senha_login input[type=password]{
+  -webkit-box-shadow: 0 1px 0 0 #bf0b0b !important;
+  border-bottom: 1px solid #bf0b0b !important;
+  box-shadow: 0 1px 0 0 #bf0b0b!important;
+  color:#bf0b0b !important;
+  outline: none;
+}
+
+.md-form input[type=nome]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly])
+{
+  -webkit-box-shadow: 0 1px 0 0 #bf0b0b !important;
+  border-bottom: 1px solid #bf0b0b !important;
+  box-shadow: 0 1px 0 0 #bf0b0b!important;
+  color:#bf0b0b !important;
+  outline: none;
+}
+
+.md-form input[type=date]:focus:not([readonly])+label, .md-form input[type=datetime-local]:focus:not([readonly])+label, .md-form input[type=email]:focus:not([readonly])+label, .md-form input[type=number]:focus:not([readonly])+label, .md-form input[type=password]:focus:not([readonly])+label, .md-form input[type=search-md]:focus:not([readonly])+label, .md-form input[type=search]:focus:not([readonly])+label, .md-form input[type=tel]:focus:not([readonly])+label, .md-form input[type=text]:focus:not([readonly])+label, .md-form input[type=time]:focus:not([readonly])+label, .md-form input[type=url]:focus:not([readonly])+label, .md-form textarea.md-textarea:focus:not([readonly])+label{
+  color:#bf0b0b !important;
+}
+
+/*
+.md-form input[type=text]:invalid:focus([readonly]),input[type=email]:invalid:focus([readonly]){
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #bf0b0b !important;
+}
+
+.md-form input[type=text]:invalid,.md-form input[type=password]:invalid, .md-form input[type=email]:invalid{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #bf0b0b;
+}
+.md-form input[type=text]:required,.md-form input[type=password]:required, .md-form input[type=email]:required{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #27ae60;
+}
+*/
+.md-form input[type=text]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=password]:focus:not([readonly]){
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ced4da!important;
+}
+
+
+
+.md-form input:required:invalid {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #bf0b0b;
+  background-color:  rgb(46, 204, 113,0);
+  color: rgba(191, 11, 11, 1)!important;
+}
+
+.md-form input:focus:invalid{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #bf0b0b;
+  background-color: rgba(191, 11, 11, 0.1);
+  color: rgba(191, 11, 11, 1)!important;
+}
+
+.md-form input:required{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(46, 204, 113,1);
+  background-color: rgb(46, 204, 113,0.2);
+  color: rgb(46, 204, 113,1)!important;
+}
+
+.md-form label:required{
+  color: #2ecc71!important;
+}
+
+.scrollspy-example {
+    height: 360px;
+}

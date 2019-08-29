@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #ecf0f1;
+}
+
+header{
+  position: fixed;
+  width:100%;
+  background: #B10B1C;
+  z-index: 2;
+}
+
+.navbar{
+  background: #B10B1C;
+
+}
+#secao{
+  position: relative;
+  top: 50px;
+  background: #ecf0f1;
+  width: 100%;
+}
+
+.lado-esquerda{
+  width: 100%;
+  background: #ecf0f1;
+}
+
+.lado-direita{
+  width: 100%;
+  background: #ecf0f1;
+  float: right
+}
+
+.nav-cima ul{
+   margin: 0;
+   -webkit-margin-before: 0em!important;
+}
+
+.nav-cima ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-cima ul li a{
+    color: #fff;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.nav-cima ul li a:hover{
+    background: #910816;
+}
+
+a.menu_esquerdo:hover{
+    background: #fff;
+    border-left: 5px solid #B10B1C;
+}
+
+.form-control{
+  padding: .150em .75em!important;
+}
+
+.imagem_logo{
+  padding-left: .5rem;
+}
+
+
+.nav-esquerda{
+  position: fixed;
+  display: inline-block;
+  left:5px;
+  z-index: 1;
+}
+
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #000;
+}
+
+.fontawesome{
+  font-size:25px;
+}
+
+.sugestao_amigos{
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+button{
+  background: none;
+  color: #B10B1C;
+  border-radius: 10px;
+  border: 2px solid #B10B1C;
+  padding: .7rem  1.7rem  .7rem  1.7rem;
+  margin: inherit;
+  font-size: .81rem;
+  outline: none;
+}
+
+.btn-color-red{
+  color: #B10B1C!important;
+  border: 2px solid  #B10B1C!important;
+}
+
+.mdb-color.lighten-3{
+  background-color: #B10B1C!important;
+}
+
+h1, h2, h3, h5, p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-secondary{
+  background-color: #B10B1C!important;
+}
+
+.modal-dialog .modal-content{
+  border-radius: 1.125rem!important;
+}
